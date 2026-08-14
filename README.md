@@ -14,6 +14,7 @@ Jira was also used for defect tracking and Scrum-based project management.
 - Perform functional and UI testing
 - Track defects using Jira
 - Prepare a Test Execution Report
+- Practice Scrum workflow in Jira
 - Document the complete manual QA testing process
 
 ## Scope of Testing
@@ -43,6 +44,7 @@ The project followed these manual QA activities:
 6. Bug Reporting
 7. Bug Tracking in Jira
 8. Test Execution Reporting
+9. Scrum Sprint Management
 
 ## Test Cases
 
@@ -78,7 +80,7 @@ A total of **8 bugs** were identified and documented during testing.
 
 All identified defects were documented in the Bug Report and tracked in Jira.
 
-## Jira
+## Jira Defect Tracking
 
 Jira was used for defect tracking and Scrum project management.
 
@@ -88,31 +90,56 @@ The Jira project includes:
 - Product backlog
 - 8 Bug issues
 - Bug assignment
-- Sprint
+- Sprint planning
 - Active Scrum board
 - Bug status tracking
+- Defect workflow
+
+### Jira Bugs
+
+| Bug ID | Bug Summary | Status |
+|---|---|---|
+| MQP-1 | Product sorting option is missing from Catalog page | In Progress |
+| MQP-2 | Search field is not available on Catalog page | To Do |
+| MQP-3 | Wish List page does not open when clicked | To Do |
+| MQP-4 | Add to Wish List option is missing from Product Details page | To Do |
+| MQP-5 | Decrease quantity button is missing in Shopping Cart | To Do |
+| MQP-6 | Empty Wish List page is not displayed | To Do |
+| MQP-7 | User is redirected to Home page instead of Login page after logout | To Do |
+| MQP-8 | Wish List navigation link is not functional | To Do |
 
 ### Jira Workflow
 
 `To Do → In Progress → In Review → Done`
 
-The identified bugs were added to the Jira backlog and assigned for tracking.
+The identified bugs were added to the Jira backlog, assigned, included in a sprint, and tracked using the Scrum board.
+
+## Jira Evidence
+
+Screenshots demonstrating the Jira testing workflow are included in the repository:
+
+- Jira Backlog showing the 8 identified bugs
+- Jira Sprint Board showing bug status
+- Jira MQP-1 bug details showing the defect documentation and In Progress status
 
 ## Tools Used
 
 - **Microsoft Excel** - Test Cases, Bug Report, and Test Execution Report
+- **Microsoft Word** - Test Plan
 - **Jira** - Bug Tracking and Scrum Project Management
 - **Google Chrome** - Test Execution
 - **SauceDemo** - Application Under Test
+- **GitHub** - Project Documentation and Version Control
 
 ## Project Deliverables
 
 | File | Description |
 |---|---|
-| `Test_Plan.pdf` | Test planning document |
-| `Test_Cases.xlsx` | 100 manual test cases |
-| `Bug_Report.xlsx` | Documented defects |
-| `Test_Execution_Report.xlsx` | Test execution results |
+| `Test Plan SauceDemo Website.docx` | Test planning document |
+| `Test Cases SauceDemo.xlsx` | 100 manual test cases |
+| `Bug Report SauceDemo.xlsx` | Documented defects |
+| `Test Execution Summary SauceDemo.xlsx` | Test execution results |
+| `SauceDemo Jira Bugs Report.xlsx` | Jira bug tracking documentation |
 | `README.md` | Project documentation |
 
 ## Repository Structure
@@ -120,8 +147,14 @@ The identified bugs were added to the Jira backlog and assigned for tracking.
 ```text
 SauceDemo-Manual-QA/
 │
-├── Test_Plan.pdf
-├── Test_Cases.xlsx
-├── Bug_Report.xlsx
-├── Test_Execution_Report.xlsx
+├── Test Plan SauceDemo Website.docx
+├── Test Cases SauceDemo.xlsx
+├── Bug Report SauceDemo.xlsx
+├── Test Execution Summary SauceDemo.xlsx
+├── SauceDemo Jira Bugs Report.xlsx
+├── Jira Screenshots/
+│   ├── Jira Backlog - 8 Bugs.png
+│   ├── Jira Sprint Board.png
+│   └── Jira Bug MQP-1.png
+│
 └── README.md
